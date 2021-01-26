@@ -1,10 +1,10 @@
 function Forgot(){
     username_input1=localStorage.getItem("username_input1");
     console.log("username1 : " + username_input1);
-    username_input2=localStorage.getItem("username_input2");
-    console.log("username2 : " + username_input2);
     password_input1=localStorage.getItem("password_input1");
     console.log("password1 : " + password_input1);
+    username_input2=localStorage.getItem("username_input2");
+    console.log("username2 : " + username_input2);
     password_input2=localStorage.getItem("password_input2");
     console.log("password2 : " + password_input2);
     user1_info="<h1> Username 1 is : " + username_input1 + "<br> Password 1 is : " + password_input1 + "</h1>";
